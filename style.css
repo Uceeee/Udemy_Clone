@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#header {
+    width: 100%;
+    height: 15vh;
+    border: 2px black solid;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#hero {
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/db24b94e-d190-4d5a-b1dd-958f702cc8f5.jpg");
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+#text_box{
+    background-color: white;
+    width: 400px;
+    height: 180px;
+    padding: 30px 20px;
+}
+
+#text_box h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#Hero h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#text_box p {
+    font-size: 20px;
+}
+
+#courses {
+    width: 100%;
+    height: 100vh;
+}
+
+#courses p {
+    font-size: 25px;
+    padding: 0px 20px;
+    color: rgb(83, 74, 74);
+}
+
+#courses h1 {
+    font-size: 35px;
+    padding: 40px 0px 20px 20px;
+}
+
+#second_nav ul {
+    display: flex;
+    justify-content: left; 
+    flex-direction: row;
+}
+
+.list {
+    padding: 20px;
+    font-size: 17px;
+    list-style: none;
+    font-style: Times New Roman;
+    font-weight: 600;
+}
+
+.list a {
+    text-decoration: none;
+    color: rgb(83, 74, 74);
+}
+
+.list a:hover {
+    color: black;
+}
+
+#python {
+    width: 95%;
+    height: 80%;
+    border: 2px rgb(163, 152, 152) solid;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+#python h2 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#python p {
+    width: 70%;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    color: rgb(83, 74, 74);
+}
+
+#python_link {
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#python_link:hover {
+    background-color: rgb(248, 245, 245);
+}
+
+.container {
+    width: 250px;
+    padding-top: 30px;
+}
+
+#python_image {
+    width: 250px;
+    height: 150px;
+    padding-left: 15px;
+}
+
+.container h3 {
+    padding-left: 15px;
+    height: 35px;
+}
+
+.python_h3 {
+    font-size: 15px;
+    color: black;
+}
+
+.name {
+    font-size: 12px;
+    color: rgb(83, 74, 74);
+}
+
+.rating {
+    font-size: 13px;
+    color: brown;
+}
+
+.fa {
+    color: gold;
+}
+
+.rating_number {
+    font-size: 13px;
+    color: lightgrey;
+}
+
+.price {
+    font-size: 15px;
+    color: black;
+}
+
+.naira {
+    text-decoration:line-through;
+    text-decoration-style: double;
+}
+
+.old_price {
+    text-decoration: line-through;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container p {
+    height: 25px;
+}
